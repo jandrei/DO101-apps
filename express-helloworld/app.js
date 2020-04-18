@@ -6,7 +6,10 @@ app.get('/', function (req, res) {
 });
 
 app.get('/mars', function (req, res) {
-  res.send('Hello Mars, now I am the new version of this code!\n');
+  res.send(`Hello Mars, 
+  now I am the new version of this code!
+  testing terceira versao do codigo
+  \n`);
 });
 
 app.listen(8080, function () {
